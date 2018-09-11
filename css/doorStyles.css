@@ -1,0 +1,36 @@
+#rButt {
+	position: absolute;
+	right: 0px;
+}
+
+.vcenter {
+	min-height: 100%;
+	min-height: 93vh;
+	
+	display: flex;
+	align-items: center;
+}
+
+#footer {
+	bottom: 0;
+	width: 100%
+	position: absolute;
+	height: $height-footer;
+}
+
+.door{
+	background-color: brown;
+}
+
+.botTop{
+	height: 50px;
+	width: 50px;
+}
+
+a {
+	color: white;
+}
+.side {
+	height: 50px;
+	width: 50px;
+}

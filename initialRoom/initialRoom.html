@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>House of Horrors </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	
+	<link rel="stylesheet" href="../css/doorStyles.css">
+	<script src= "../javascript/hotel.js"></script>	
+	
+</head>
+<body>
+
+<div class="container-fluid">
+ 
+ <div class="row">
+    <div class="col-sm-12 text-center">
+    <a href="" class="door botTop" >North</a>
+    </div>
+   </div>
+    
+   <div class="row vcenter">
+    <a href="" class="door side">West</a>
+	
+	<div class = "text-center">
+		<img onclick = "showNote()" id = "noteImage" src="../img/note.jpg" alt="Note" width = "100" height="100">
+	<div id ="noteText" onclick = "showNote()" > You read the note. It looks like the author's hand was shaking. Most of the words on illegible. All you can make out
+	is "escape". A sense of forboding takes over. What is happening? 
+	</div>
+	
+	</div>
+	
+	<!-- hide the note text until the note is clicked -->
+	<script> document.getElementById("noteText").style.display = "none"; </script>
+	
+	<a href="" class="door side" id="rButt"> East</a>
+    </div>
+
+    <div class="row" id="footer">
+     <div class="col-sm-12 text-center" id="bottom">
+    <a href="../1,1/1,1.html" class="door botTop"> South</a>
+    </div>
+    </div>
+    <script src ="../javascript/hotel.js">decrementMoves()</script>
+	
+ </div> 
+</body>
+</html>
